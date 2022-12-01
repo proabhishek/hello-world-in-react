@@ -1,19 +1,13 @@
 import React from "react"
-import ReactDOM from "react-dom"
+import ReactDom from "react-dom"
 import "./style.css"
+import App from "./App"
+// import {Start, Hello} from "./App"
 
 // JSX
-const Start=()=>{
-       return (
-            <div className="bg">
-                {/* <h1 style={{textAlign: "center"}}> Hello World </h1> */}
-                <h1> Hello WOrld</h1>
-                <p> I am a para </p>
-            </div>
-       )
-}
 
 
 
-ReactDOM.render(<Start />, document.getElementById("root"))
+
+ReactDom.render(<App />, document.getElementById("root"))
 
