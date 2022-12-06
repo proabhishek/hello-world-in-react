@@ -1,16 +1,13 @@
 // import React from "react"; 
 
 
-const Fruits = ({props}) =>{
-
-    //props =  {fruits_name: "Banana", para="Its a delicous fruit 2"}
-
-    // let {fruits_name, para} = obj
-    //   console.log(obj)
+const Fruits = (props) =>{
+   
       return(
         <div>
-            <button>{props.fruits_name}</button>
-            <p>{props.para} </p>
+             <h1>{props.name}</h1>
+             <h3>{props.email}</h3>
+             <h3>{props.phone}</h3>
          </div>
       )
 }
